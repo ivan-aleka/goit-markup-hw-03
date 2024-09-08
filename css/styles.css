@@ -48,7 +48,7 @@ max-width: 1158px;
   display: flex;
   align-items: center;
 }
-.logo {
+.header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -325,6 +325,13 @@ max-width: 1158px;
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
+  font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
 }
 .footer-logo .logo-part {
   color: #f4f4fd;
