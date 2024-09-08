@@ -38,6 +38,8 @@ max-width: 1158px;
 /**********Opening Header*/
 .page-header {
   border-bottom: 1px solid #e7e9fc;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .page-header .container {
   display: flex;
@@ -45,8 +47,6 @@ max-width: 1158px;
 .header-nav {
   display: flex;
   align-items: center;
-    padding-top: 24px;
-      padding-bottom: 24px;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -86,8 +86,6 @@ max-width: 1158px;
 .contacts-list {
   display: flex;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
  .contacts .contacts-item:last-child {
    margin-right: 0;
