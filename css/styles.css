@@ -21,6 +21,7 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px
 }
 .header-logo .logo-part {
   color: #2e2f42;
@@ -234,28 +235,35 @@ img {
 .page-header {
   border-bottom: 1px solid #e7e9fc;
 }
-.container-header{
+.page-header .container{
   padding-top: 24px;
   padding-bottom: 24px;
   display: flex;
+  width: 1158px
+  margin: 0 auto;
 }
 .header-nav {
   display: flex;
+  align-items: center;
 
 }
 .nav-list {
   display: flex;
-  padding-left: 76px;
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: row;
     gap: 40px;
 }
+.header-nav .nav-item:last-child {
+  margin-right: 0;
+}
 .contacts-list {
   display: flex;
   gap: 40px;
-  
-}
+  }
+  .contacts .contacts-item:last-child {
+    margin-right: 0;
+  }
 .contacts {
   display: flex;
   margin-left: 332px;
